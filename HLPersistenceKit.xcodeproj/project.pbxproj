@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE8D61ED1FCD10030035B5AE /* HLPersistenceFileConfigurationItem.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8D61EB1FCD10030035B5AE /* HLPersistenceFileConfigurationItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8D61EE1FCD10030035B5AE /* HLPersistenceFileConfigurationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8D61EC1FCD10030035B5AE /* HLPersistenceFileConfigurationItem.m */; };
+		EE8D62001FCD6AE80035B5AE /* HLPersistenceDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8D61EA1FCBDF890035B5AE /* HLPersistenceDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8D62061FCE4AE50035B5AE /* HLPersistence.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8D62051FCE4A7B0035B5AE /* HLPersistence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE915EAF1FC6558F0039253B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE915EAE1FC6558F0039253B /* AppDelegate.m */; };
+		EE915EB21FC6558F0039253B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE915EB11FC6558F0039253B /* ViewController.m */; };
+		EE915EB51FC6558F0039253B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE915EB31FC6558F0039253B /* Main.storyboard */; };
+		EE915EB81FC6558F0039253B /* HLPersistenceKitDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE915EB61FC6558F0039253B /* HLPersistenceKitDemo.xcdatamodeld */; };
+		EE915EBA1FC6558F0039253B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE915EB91FC6558F0039253B /* Assets.xcassets */; };
+		EE915EBD1FC6558F0039253B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE915EBB1FC6558F0039253B /* LaunchScreen.storyboard */; };
+		EE915EC01FC6558F0039253B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE915EBF1FC6558F0039253B /* main.m */; };
+		EE915ED01FC6559F0039253B /* HLPersistenceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE915EC91FC6559F0039253B /* HLPersistenceKit.framework */; };
+		EE915ED11FC6559F0039253B /* HLPersistenceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE915EC91FC6559F0039253B /* HLPersistenceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EE915EDF1FC673C30039253B /* HLPersistenceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EE915EDD1FC673C30039253B /* HLPersistenceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE915EE01FC673C30039253B /* HLPersistenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE915EDE1FC673C30039253B /* HLPersistenceManager.m */; };
+		EE915EE21FC6932A0039253B /* ConfigurationDemoList.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE915EE11FC6932A0039253B /* ConfigurationDemoList.plist */; };
+		EE915EE51FC69EB50039253B /* HLPersistenceConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = EE915EE31FC69EB50039253B /* HLPersistenceConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE915EE61FC69EB50039253B /* HLPersistenceConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = EE915EE41FC69EB50039253B /* HLPersistenceConfiguration.m */; };
+		EE915EE91FC6B0700039253B /* HLPersistenceBaseConfigurationItem.h in Headers */ = {isa = PBXBuildFile; fileRef = EE915EE71FC6B0700039253B /* HLPersistenceBaseConfigurationItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE915EEA1FC6B0700039253B /* HLPersistenceBaseConfigurationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EE915EE81FC6B0700039253B /* HLPersistenceBaseConfigurationItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE915ECE1FC6559F0039253B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE915E831FC6556F0039253B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE915EC81FC6559F0039253B;
+			remoteInfo = HLPersistenceKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE915ED51FC6559F0039253B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EE915ED11FC6559F0039253B /* HLPersistenceKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE8D61EA1FCBDF890035B5AE /* HLPersistenceDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLPersistenceDefine.h; sourceTree = "<group>"; };
+		EE8D61EB1FCD10030035B5AE /* HLPersistenceFileConfigurationItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLPersistenceFileConfigurationItem.h; sourceTree = "<group>"; };
+		EE8D61EC1FCD10030035B5AE /* HLPersistenceFileConfigurationItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLPersistenceFileConfigurationItem.m; sourceTree = "<group>"; };
+		EE8D62051FCE4A7B0035B5AE /* HLPersistence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLPersistence.h; sourceTree = "<group>"; };
+		EE915EAB1FC6558F0039253B /* HLPersistenceKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLPersistenceKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE915EAD1FC6558F0039253B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE915EAE1FC6558F0039253B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE915EB01FC6558F0039253B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE915EB11FC6558F0039253B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE915EB41FC6558F0039253B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE915EB71FC6558F0039253B /* HLPersistenceKitDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HLPersistenceKitDemo.xcdatamodel; sourceTree = "<group>"; };
+		EE915EB91FC6558F0039253B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE915EBC1FC6558F0039253B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE915EBE1FC6558F0039253B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE915EBF1FC6558F0039253B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE915EC91FC6559F0039253B /* HLPersistenceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HLPersistenceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE915ECC1FC6559F0039253B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE915EDD1FC673C30039253B /* HLPersistenceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLPersistenceManager.h; sourceTree = "<group>"; };
+		EE915EDE1FC673C30039253B /* HLPersistenceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLPersistenceManager.m; sourceTree = "<group>"; };
+		EE915EE11FC6932A0039253B /* ConfigurationDemoList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ConfigurationDemoList.plist; sourceTree = "<group>"; };
+		EE915EE31FC69EB50039253B /* HLPersistenceConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLPersistenceConfiguration.h; sourceTree = "<group>"; };
+		EE915EE41FC69EB50039253B /* HLPersistenceConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLPersistenceConfiguration.m; sourceTree = "<group>"; };
+		EE915EE71FC6B0700039253B /* HLPersistenceBaseConfigurationItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLPersistenceBaseConfigurationItem.h; sourceTree = "<group>"; };
+		EE915EE81FC6B0700039253B /* HLPersistenceBaseConfigurationItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLPersistenceBaseConfigurationItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE915EA81FC6558F0039253B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE915ED01FC6559F0039253B /* HLPersistenceKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE915EC51FC6559F0039253B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE915E821FC6556F0039253B = {
+			isa = PBXGroup;
+			children = (
+				EE915ECA1FC6559F0039253B /* HLPersistenceKit */,
+				EE915EAC1FC6558F0039253B /* HLPersistenceKitDemo */,
+				EE915E8C1FC6556F0039253B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE915E8C1FC6556F0039253B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE915EAB1FC6558F0039253B /* HLPersistenceKitDemo.app */,
+				EE915EC91FC6559F0039253B /* HLPersistenceKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE915EAC1FC6558F0039253B /* HLPersistenceKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EE915EAD1FC6558F0039253B /* AppDelegate.h */,
+				EE915EAE1FC6558F0039253B /* AppDelegate.m */,
+				EE915EB01FC6558F0039253B /* ViewController.h */,
+				EE915EB11FC6558F0039253B /* ViewController.m */,
+				EE915EB31FC6558F0039253B /* Main.storyboard */,
+				EE915EB91FC6558F0039253B /* Assets.xcassets */,
+				EE915EBB1FC6558F0039253B /* LaunchScreen.storyboard */,
+				EE915EBE1FC6558F0039253B /* Info.plist */,
+				EE915EBF1FC6558F0039253B /* main.m */,
+				EE915EB61FC6558F0039253B /* HLPersistenceKitDemo.xcdatamodeld */,
+				EE915EE11FC6932A0039253B /* ConfigurationDemoList.plist */,
+			);
+			path = HLPersistenceKitDemo;
+			sourceTree = "<group>";
+		};
+		EE915ECA1FC6559F0039253B /* HLPersistenceKit */ = {
+			isa = PBXGroup;
+			children = (
+				EE8D62051FCE4A7B0035B5AE /* HLPersistence.h */,
+				EE8D61EA1FCBDF890035B5AE /* HLPersistenceDefine.h */,
+				EE915EDD1FC673C30039253B /* HLPersistenceManager.h */,
+				EE915EDE1FC673C30039253B /* HLPersistenceManager.m */,
+				EE915EE31FC69EB50039253B /* HLPersistenceConfiguration.h */,
+				EE915EE41FC69EB50039253B /* HLPersistenceConfiguration.m */,
+				EE8D61EB1FCD10030035B5AE /* HLPersistenceFileConfigurationItem.h */,
+				EE8D61EC1FCD10030035B5AE /* HLPersistenceFileConfigurationItem.m */,
+				EE915EE71FC6B0700039253B /* HLPersistenceBaseConfigurationItem.h */,
+				EE915EE81FC6B0700039253B /* HLPersistenceBaseConfigurationItem.m */,
+				EE915ECC1FC6559F0039253B /* Info.plist */,
+			);
+			path = HLPersistenceKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EE915EC61FC6559F0039253B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8D62061FCE4AE50035B5AE /* HLPersistence.h in Headers */,
+				EE8D62001FCD6AE80035B5AE /* HLPersistenceDefine.h in Headers */,
+				EE915EE91FC6B0700039253B /* HLPersistenceBaseConfigurationItem.h in Headers */,
+				EE915EDF1FC673C30039253B /* HLPersistenceManager.h in Headers */,
+				EE8D61ED1FCD10030035B5AE /* HLPersistenceFileConfigurationItem.h in Headers */,
+				EE915EE51FC69EB50039253B /* HLPersistenceConfiguration.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EE915EAA1FC6558F0039253B /* HLPersistenceKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE915EC11FC6558F0039253B /* Build configuration list for PBXNativeTarget "HLPersistenceKitDemo" */;
+			buildPhases = (
+				EE915EA71FC6558F0039253B /* Sources */,
+				EE915EA81FC6558F0039253B /* Frameworks */,
+				EE915EA91FC6558F0039253B /* Resources */,
+				EE915ED51FC6559F0039253B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE915ECF1FC6559F0039253B /* PBXTargetDependency */,
+			);
+			name = HLPersistenceKitDemo;
+			productName = HLPersistenceKitDemo;
+			productReference = EE915EAB1FC6558F0039253B /* HLPersistenceKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE915EC81FC6559F0039253B /* HLPersistenceKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE915ED21FC6559F0039253B /* Build configuration list for PBXNativeTarget "HLPersistenceKit" */;
+			buildPhases = (
+				EE915EC41FC6559F0039253B /* Sources */,
+				EE915EC51FC6559F0039253B /* Frameworks */,
+				EE915EC61FC6559F0039253B /* Headers */,
+				EE915EC71FC6559F0039253B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLPersistenceKit;
+			productName = HLPersistenceKit;
+			productReference = EE915EC91FC6559F0039253B /* HLPersistenceKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE915E831FC6556F0039253B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = WayToHelloLujah;
+				TargetAttributes = {
+					EE915EAA1FC6558F0039253B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EE915EC81FC6559F0039253B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE915E861FC6556F0039253B /* Build configuration list for PBXProject "HLPersistenceKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE915E821FC6556F0039253B;
+			productRefGroup = EE915E8C1FC6556F0039253B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE915EC81FC6559F0039253B /* HLPersistenceKit */,
+				EE915EAA1FC6558F0039253B /* HLPersistenceKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE915EA91FC6558F0039253B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE915EBD1FC6558F0039253B /* LaunchScreen.storyboard in Resources */,
+				EE915EBA1FC6558F0039253B /* Assets.xcassets in Resources */,
+				EE915EE21FC6932A0039253B /* ConfigurationDemoList.plist in Resources */,
+				EE915EB51FC6558F0039253B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE915EC71FC6559F0039253B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE915EA71FC6558F0039253B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE915EB21FC6558F0039253B /* ViewController.m in Sources */,
+				EE915EB81FC6558F0039253B /* HLPersistenceKitDemo.xcdatamodeld in Sources */,
+				EE915EC01FC6558F0039253B /* main.m in Sources */,
+				EE915EAF1FC6558F0039253B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE915EC41FC6559F0039253B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE915EE61FC69EB50039253B /* HLPersistenceConfiguration.m in Sources */,
+				EE915EEA1FC6B0700039253B /* HLPersistenceBaseConfigurationItem.m in Sources */,
+				EE915EE01FC673C30039253B /* HLPersistenceManager.m in Sources */,
+				EE8D61EE1FCD10030035B5AE /* HLPersistenceFileConfigurationItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE915ECF1FC6559F0039253B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE915EC81FC6559F0039253B /* HLPersistenceKit */;
+			targetProxy = EE915ECE1FC6559F0039253B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE915EB31FC6558F0039253B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE915EB41FC6558F0039253B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE915EBB1FC6558F0039253B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE915EBC1FC6558F0039253B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE915EA21FC6556F0039253B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE915EA31FC6556F0039253B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE915EC21FC6558F0039253B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBDEJUZCUC;
+				HLP_FILEUSERDOCUMENT = myUser;
+				INFOPLIST_FILE = HLPersistenceKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = way.to.hello.lujah.HLPersistenceKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE915EC31FC6558F0039253B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBDEJUZCUC;
+				HLP_FILEUSERDOCUMENT = myUser;
+				INFOPLIST_FILE = HLPersistenceKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = way.to.hello.lujah.HLPersistenceKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE915ED31FC6559F0039253B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YBDEJUZCUC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HLP_FILEUSERDOCUMENT = myUser;
+				INFOPLIST_FILE = HLPersistenceKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = way.to.hello.lujah.HLPersistenceKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE915ED41FC6559F0039253B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = YBDEJUZCUC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HLP_FILEUSERDOCUMENT = myUser;
+				INFOPLIST_FILE = HLPersistenceKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = way.to.hello.lujah.HLPersistenceKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE915E861FC6556F0039253B /* Build configuration list for PBXProject "HLPersistenceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE915EA21FC6556F0039253B /* Debug */,
+				EE915EA31FC6556F0039253B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE915EC11FC6558F0039253B /* Build configuration list for PBXNativeTarget "HLPersistenceKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE915EC21FC6558F0039253B /* Debug */,
+				EE915EC31FC6558F0039253B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE915ED21FC6559F0039253B /* Build configuration list for PBXNativeTarget "HLPersistenceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE915ED31FC6559F0039253B /* Debug */,
+				EE915ED41FC6559F0039253B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE915EB61FC6558F0039253B /* HLPersistenceKitDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE915EB71FC6558F0039253B /* HLPersistenceKitDemo.xcdatamodel */,
+			);
+			currentVersion = EE915EB71FC6558F0039253B /* HLPersistenceKitDemo.xcdatamodel */;
+			path = HLPersistenceKitDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE915E831FC6556F0039253B /* Project object */;
+}
